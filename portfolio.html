@@ -17,11 +17,9 @@
 
 <body class="d-flex flex-column h-90 mt-3">
 
-    <!-- ~ ~ _  NAVBAR  _ ~ ~ -->
+    <!--   NAVBAR   -->
     <header class="headerfont">
-        <!-- could wrap in container, but i modified container, -  docs said it would save more space on small screen sizes -->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-dark">
-            <!--                    added fixed-top class ^ -->
 
             <a class="navbar-brand text-success" href="#">Thomas White</a>
 
@@ -45,7 +43,7 @@
                         <a class="nav-link" href="contact.html" target="_blank" rel="noopener noreferrer">Contact</a>
                     </li>
 
-                    <!--        drop down menu              -->
+                    <!-- Nav drop down menu -->
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -55,23 +53,11 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="index.html">About</a>
                             <a class="dropdown-item" href="portfolio.html">Portfolio</a>
-                            <!-- <div class="dropdown-divider"></div> -->
                             <a class="dropdown-item" href="contact.html">Contact</a>
                         </div>
                     </li>
-                    <!-- documentation said you dont need list items if you but the nav-item in each link item? need to look this up again -->
 
-                    <!-- Disabled button?  -->
-                    <!-- <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li> -->
                 </ul>
-
-                <!-- Search Bar and Button -->
-                <!-- <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form> -->
 
             </div>
         </nav>
@@ -91,40 +77,36 @@
                 <h1>Portfolio</h1>
                 <div class="row  mb-5">
                     <div class="col-12 ">
+                        <!-- Gif -->
                         <div class="picturerelativebanner">
-                            <img src="assets/images/testportimage.jpeg" alt="Thomas White" class="clearfix imgNoPadding"
-                                height="250px" width="300px">
-                            <div class="tealbanner text"> <a href="https://thomas-white-ucf.github.io/Searchlock/" target="_blank" rel="noopener
+                            <img src="https://media3.giphy.com/media/BmmfETghGOPrW/200.gif?cid=bdaf147d5d477c9978444d4a6fcd7d0e&rid=200.gif"
+                                alt="Gif" class="clearfix imgNoPadding gifSizer" height="250px" width="300px">
+                            <div class="tealbanner"><a href="https://thomas-white-ucf.github.io/GetGiphy/"
+                                    class="text-success" target="_blank" rel="noopener noreferrer">Get Giphy!</a></div>
+                        </div>
+                        <!-- Seach Project -->
+                        <div class="picturerelativebanner">
+                            <img src="assets/images/planeForest.jpg" alt="Thomas White"
+                                class="clearfix imgNoPadding gifSizer" height="250px" width="300px">
+                            <div class="tealbanner text"><a href="https://thomas-white-ucf.github.io/Searchlock/"
+                                    class="text-success" target="_blank" rel="noopener
                                 noreferrer">Searchlock!</a></div>
                         </div>
-                        <div class="picturerelativebanner">
-                            <img src="assets/images/testportimage2.jpeg" alt="Thomas White"
-                                class="clearfix imgNoPadding" height="250px" width="300px">
-                            <div class="tealbanner"><a href="unit-4-game.html" target="_blank" rel="noopener
-                                noreferrer">Numbers Game!</a></div>
-                        </div>
-                        <div class="picturerelativebanner">
-                            <img src="assets/images/space.jpg" alt="Thomas White"
-                                class="clearfix imgNoPadding" height="250px" width="300px">
-                            <div class="tealbanner bg-dark"><a href="https://thomas-white-ucf.github.io/TriviaGame/" 
-                                target="_blank" rel="noopener noreferrer">Marvel Trivia!</a></div>
-                        </div>
+                        <!-- Marvel Trivia -->
                         <div class="picturerelativebanner">
                             <img src="assets/images/space.jpg" alt="Thomas White" class="clearfix imgNoPadding"
                                 height="250px" width="300px">
-                            <div class="tealbanner bg-dark"><a href="https://thomas-white-ucf.github.io/GetGiphy/" 
-                                target="_blank" rel="noopener noreferrer">Get Giphy!</a></div>
+                            <div class="tealbanner"><a href="https://thomas-white-ucf.github.io/TriviaGame/"
+                                    class="text-success" target="_blank" rel="noopener noreferrer">Marvel Trivia!</a>
+                            </div>
                         </div>
+                        <!-- Train Time Table with Moment.js -->
                         <div class="picturerelativebanner">
-                            <img src="assets/images/testportimage.jpeg" alt="Thomas White"
-                                class="clearfix imgNoPadding" height="250px" width="300px">
-                            <div class="tealbanner"><a href="https://thomas-white-ucf.github.io/SunTrain-Southbound/" 
-                                target="_blank" rel="noopener noreferrer">SunTrain Times!</a></div>
-                        </div>
-                        <div class="picturerelativebanner">
-                            <img src="assets/images/testportimage3.jpeg" alt="Thomas White"
-                                class="clearfix imgNoPadding" height="250px" width="300px">
-                            <div class="tealbanner">_</div>
+                            <img src="assets/images/train.jpg" alt="Trains" class="clearfix imgNoPadding gifSizer"
+                                height="250px" width="300px">
+                            <div class="tealbanner"><a href="https://thomas-white-ucf.github.io/SunTrain-Southbound/"
+                                    class="text-success" target="_blank" rel="noopener noreferrer">SunTrain Times!</a>
+                            </div>
                         </div>
 
                     </div>
@@ -139,7 +121,7 @@
 
 
     <!-- STICKY FOOTER BOOTSTRAP -->
-    <footer class="footer mt-auto py-3 bg-dark">
+    <footer class="footer mt-auto py-1 bg-dark">
         <div class="container">
             <span class="text-muted"><a class="mainfont notextdecoration text-success"
                     href="mailto:thomas.white.ucf@gmail.com">Thomas.white.ucf@gmail.com</a></span>

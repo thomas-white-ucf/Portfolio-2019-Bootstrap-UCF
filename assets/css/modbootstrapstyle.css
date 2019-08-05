@@ -1,3 +1,15 @@
+/*     New Styles   -
+ */
+
+.clearfix {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.gifSizer {
+    background-size: cover;
+}
 
 /* MOD BootStrap Style */
 
@@ -6,6 +18,7 @@ body {
 }
 
 /* sticky footer */
+
 .footer {
     position: fixed;
     bottom: 0;
@@ -17,10 +30,6 @@ body {
 #maincontainerindexpage {
     width: 85%;
     margin: 3% auto;
-}
-
-.easypadtest{
-    padding: 40px;
 }
 
 /* Altered CSS from other Portfolio*/
@@ -36,6 +45,8 @@ p {
     margin-bottom: 1ex;
 }
 
+/* Fonts */
+
 .headerfont {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -45,6 +56,8 @@ p {
     color: #777777;
 }
 
+/*  Banner for Portfolio page
+*/
 
 .picturerelativebanner {
     position: relative;
@@ -57,17 +70,17 @@ p {
 .tealbanner {
     position: absolute;
     top: 150px;
-    background-color: #4aaaa5;
+    background-color: #4055549f;
     height: 60px;
     width: 100%;
-    padding-top: 20px;
+    padding-top: 10px;
     text-align: center;
     color: white;
     font-size: 30px;
 }
-/* .imgNoPadding {
-    padding: 0;
-} */
+
+/*  Contact Page
+ */
 
 .textbox1 {
     width: 100%;
@@ -80,6 +93,7 @@ p {
     height: 200px;
     display: block;
 }
+
 button {
     background-color: #4aaaa5;
     color: white;
@@ -91,7 +105,7 @@ button {
 
 /*  ~~~~980px~~~~~~~ */
 
-/* @media screen and (max-width: 980px) {
+@media screen and (max-width: 980px) {
     .containerone, .containertwo {
         width: 768px;
     }
@@ -101,13 +115,11 @@ button {
     .picturerelativebanner {
         margin-right: 5%;
     }
-    
-} */
+}
 
 /*  ~~~~768px~~~~~~~ */
 
 @media screen and (max-width: 768px) {
-    
     .indeximageviewchanges {
         width: 50%;
         height: auto;
